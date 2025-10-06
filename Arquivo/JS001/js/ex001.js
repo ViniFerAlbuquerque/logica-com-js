@@ -1,4 +1,4 @@
 function Mensagem() {
-    let res = window.document.querySelector('div.msg')
-    res.innerHTML = '<p>Olá, mundo!</p>'
+    let res = document.querySelector('div.msg')
+    res.innerText = 'Olá, mundo!'
 }
