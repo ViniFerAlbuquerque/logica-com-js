@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <title>Nome e Salário do colaborador!</title>
+</head>
+<body>
+    <section class="design-section">
+        <h1>Salário dos funcionários:</h1>
+        <p>Nome do colaborador : <input type ="text" name="txtnomef" id="txtnomef" required></p>
+        <p>Salário : <input type ="number" name="txtsalf" id="txtsalf" step="0.01" placeholder="R$..." required></p>
+        <input class="button" type="button" value="Adicionar" onclick="Adicionar()">
+        <div class="res"></div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
