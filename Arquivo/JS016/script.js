@@ -37,7 +37,7 @@ function calculo() {
 
         txtCigarros.value = ''
         txtAnos.value = ''
-        res.innerText = ''
+        res.innerHTML = ''
         
         txtDias.focus()
     }
