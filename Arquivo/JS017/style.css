@@ -3,10 +3,10 @@
 }
 
 body {
-    background: linear-gradient(to left, hsl(61, 94%, 47%), #113355);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to left, #524d4d, #0f0c0c);
+    font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,21 +15,15 @@ body {
 }
 
 h1::first-line {
-    color: #4bf7e8 ;
-}
-
-p::first-letter {
-    color: #77dfff;
-    font-size: 30px;
-    font-weight: bold;
+    color: #012c28 ;
 }
 
 .design-section {
-    width: 60%;
+    width: 70%;
     border: 1px solid #d2d2d2;
     border-radius: 10px;
     padding: 4px;
-    background: linear-gradient(to top, #798cb3, #020220);
+    background: linear-gradient(to top, #1e0338, #626294);
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
     display: flex;
     justify-content: center;
@@ -55,22 +49,13 @@ input[type="button"] {
     font-size: 16px;
 }
 
-#txta {
-    background-color: #d8ffae;
+#txtvel {
+    background-color: #fff9f1;
     width: 105px;
-}
-#txtb {
-    background-color:  #d8ffae;
-    width: 105px;
-}
-
-#txtc {
-    background-color:  #d8ffae;
-    width: 110px;
 }
 
 .button:hover {
-    background-color: #288b8b;
+    background-color: #4d1005d2;
     /* Nova cor de fundo no hover */
     color: #f0f0f0;
     /* Nova cor do texto no hover */
@@ -80,7 +65,32 @@ input[type="button"] {
     /* Adiciona uma sombra para dar profundidade */
 }
 
+.button02:hover {
+    background-color: #b91c00;
+    /* Nova cor de fundo no hover */
+    color: #3ac01f;
+}
+
 .res {
     padding: 20px;
-    font-size: 20px;
+    font-size: 23px;
    }
+
+footer {
+    margin-top: auto;
+    font-size: 15px;
+    padding: 11px;
+    background-image: linear-gradient(to left, hsl(64, 100%, 73%), #a2dceb);
+    background-clip: text; 
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 10s linear infinite;
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

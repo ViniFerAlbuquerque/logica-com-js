@@ -17,7 +17,7 @@ function conversao() {
 
         // O "inputRad[0] indica qual é o input selecionado"
         if (inputRadio[0].checked) {
-            let valorReais = dinheiroValor * 5.45
+            let valorReais = dinheiroValor * 7.17
             res.innerHTML = `O valor de ${dinheiroValor.toLocaleString('en-US', { style: 'currency', currency: 'USD' })} é igual a ${valorReais.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
         } else {
             var valorDolar = dinheiroValor / 5.45
