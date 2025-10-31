@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Promoção do Dia da Mulher!</title>
+</head>
+<body>
+    <section class="design-section"> 
+        <h1>Promoção do Dia das Mulheres : </h1> 
+        <p>Selecione o seu sexo abaixo :</p>
+        <p>
+            <input type="radio" name="sexocliente" id="sexofeminino" checked>
+            <label for="sexofeminino">Feminino</label>
+            <input type="radio" name="sexocliente" id="sexomasculino">
+            <label for="sexomasculino">Masculino</label>
+        </p>
+
+        <p>Nome : <input type="text" name="nomecliente" id="nomecliente"> </p> 
+        <p>Valor da compra R$ : <input type="number" name="valorcompra" id="valorcompra"></p>
+
+        <button class="button" onclick="calcular()">Calcular!</button> 
+
+        <div class="res"></div>
+
+        <footer>ViniFerAlbuquerque</footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

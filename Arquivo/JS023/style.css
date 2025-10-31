@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, hsl(185, 43%, 90%), #000000);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    min-height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+h1::first-line {
+    color: #ee86c6 ;
+}
+p {
+    font-size: 22px;
+}
+
+.design-section {
+    width: 60%;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(to top, #434144, #020220);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+input[type="text"] {
+    background: #dfa0c7;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 20px;
+    width: 600px;
+}
+
+input[type="number"] {
+    background: #dfa0c7;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 22px;
+    width: 100px;
+    font-size: 19px;
+}
+
+button {
+    background: #a3075d;
+    border-radius: 39px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#txt {
+    background-color: #fff9f1;
+    width: 145px;
+}
+
+.button:hover {
+    background-color: #16e00fd2;
+    /* Nova cor de fundo no hover */
+    color: #eb0a95;
+
+}
+
+.res {
+    padding: 20px;
+    font-size: 23px;
+    /* font-weight: bold; */
+   }
+
+footer {
+    margin-top: auto;
+    font-size: 14px;
+    padding: 11px;
+    background-image: linear-gradient(to left, hsl(19, 38%, 77%), #000000);
+    background-clip: text; 
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 12s linear infinite;
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+input[type="radio"] {
+  accent-color: #f00909 ;
+  cursor: pointer;
+}
