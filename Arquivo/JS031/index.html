@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>JoKenPo!</title>
+</head>
+
+<body>
+    <section class="design-section">
+
+        <h1>Jogo - Pedra, papel e tesoura</h1>
+
+        <h2>Regras do jogo:</h2>
+
+        <p>
+            →Pedra ganha da <strong>tesoura</strong>(amassando-a ou quebrando-a)!<br>
+            →Tesoura ganha do <strong>papel</strong> (Cortando-o)!</br>
+            →Papel ganha da <strong>pedra</strong> (embrulhando-a)!
+        </p>
+
+        <h2>Escolha um objeto para jogar:</h2>
+
+        <p>
+            <label><input type="radio" name="jogador" value="Pedra"><strong>Pedra!</strong></label>
+            <label><input type="radio" name="jogador" value="Papel"><strong>Papel!</strong></label>
+            <label><input type="radio" name="jogador" value="Tesoura"><strong>Tesoura!</label>
+        </p>
+
+        <button class="button" onclick="jogar()">Jogar!</button>
+
+        <article class="resposta"></article>
+
+
+        <footer>ViniFerAlbuquerque!</footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, hsl(185, 43%, 90%), #5c5858);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+h1::first-line {
+    color: #07dac1 ;
+}
+h2::first-line {
+    color: #71dbcf ;
+}
+
+.design-section {
+    width: 70%;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 2px;
+    background: linear-gradient(to top, #a178a1, #25258d);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+input[type="text"] {
+    background: #e6f592;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 17px;
+    width: 600px;
+}
+
+input[type="number"] {
+    background: #d6e67c;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+}
+
+button {
+    background: #d0ff00;
+    border-radius: 39px;
+    border: 1px solid;
+    padding: 1px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 26px;
+    width: 249px;
+}
+
+strong {
+        color: #d0ff00;
+}
+
+#txt {
+    background-color: #fff9f1;
+    width: 145px;
+}
+
+.button:hover {
+    background-color: #16e00fd2;
+    /* Nova cor de fundo no hover */
+    color: #d4e44b;
+
+}
+
+.resposta {
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bold;
+   }
+
+footer {
+    margin-top: auto;
+    font-size: 14px;
+    padding: 11px;
+    background-image: linear-gradient(to left, hsl(18, 59%, 92%), #000000);
+    background-clip: text; 
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 12s linear infinite;
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
