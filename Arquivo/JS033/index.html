@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Empréstimo habitacional!</title>
+</head>
+
+<body>
+    <section class="design-section">
+
+        <h1>Empréstimo para moradia : </h1>
+
+        <h2>Insira os dados abaixo:</h2>
+
+        <p>Valor da casa R$:<input type="number" name="valorCasa" id="valorCasa"></p>
+        <p>Seu salário mensal:<input type="number" name="salario" id="salario"></p>
+        <p>Em quanto tempo pretende pagar? <input type="number" name="anos" id="anos"> anos!</p>
+
+        <button class="button" onclick="analisar()">Analisar!</button>
+
+        <button class="button" onclick="limpar()">Fazer outra análise!</button>
+
+        <article class="res"></article>
+        <footer>ViniFerAlbuquerque!</footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
