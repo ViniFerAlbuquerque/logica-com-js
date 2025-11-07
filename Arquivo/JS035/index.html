@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Aluguel de Carros!</title>
+</head>
+
+<body>
+    <section class="design-section">
+
+        <h1>ViniFerAlbuquerque Aluguel de Carros!</h1>
+
+        <h2>Qual modelo de carro deseja alugar?</h2> 
+
+        <p>
+            <input type="radio" name="modeloCarro" id="popular" checked>
+            <label for="popular">Popular</label>
+
+            <input type="radio" name="modeloCarro" id="luxo">
+            <label for="luxo">Luxo</label>
+        </p>
+
+        <p>Dias alugados: <input type="number" name="diasAlugados" id="diasAlugados"></p>
+
+        <p>Quilômetros percorridos: <input type="number" name="kmPercorrido" id="kmPercorridos">km</p>
+
+        <button class="button" onclick="calcular()">Ver valor</button>
+
+        <button class="button" onclick="limparResultado()" id="btnLimpar">Limpar resultado</button>
+
+        <div class="resposta"></div>
+        <footer>ViniFerAlbuquerque!</footer>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
