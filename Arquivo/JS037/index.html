@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Aumento salarial!</title>
+</head>
+<body>
+    <section class="design-section">
+        <h1> Seu aumento salarial:</h1> 
+
+        <h2>Sexo do colaborador:</h2>
+        <p><input type="radio" name="sexoFuncionario" id="feminino" checked>
+        <label for="feminino">Feminino:</label> 
+        <input type="radio" name="sexoFuncionario" id="masculino"> 
+        <label for="masculino">Masculino:</label> </p>
+
+        <p>Salário R$: <input type="number" name="salario" id="salario"></p> 
+
+        <p>Tempo de empresa: <input type="number" name="anos" id="anos"></p> 
+
+        <button class="button" onclick="calcular()">Aplicar aumento!</button>
+
+        <div class="resposta"></div>
+        <footer>ViniFerAlbuquerque!</footer>
+    </section>
+</body>
+    <script src="script.js"></script>
+</html>
