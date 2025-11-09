@@ -20,10 +20,10 @@ function calcular() {
                     resposta.style.color=' rgb(255, 48, 186)'
         } else if (anos <= 20) {
             porcentagem = 12
-                    resposta.style.color='rgb(255, 48, 186)'
+                    resposta.style.color='rgba(255, 129, 213, 1)'
         } else {
             porcentagem = 23
-                    resposta.style.color='rgb(255, 48, 186)'
+                    resposta.style.color='rgba(252, 168, 224, 1)'
         }
 
     } else {
@@ -32,10 +32,10 @@ function calcular() {
                     resposta.style.color=' #11ff00'
         } else if (anos <= 30) {
             porcentagem = 13
-                    resposta.style.color=' #11ff00'
+                    resposta.style.color=' #8bec84ff'
         } else {
             porcentagem = 25
-                    resposta.style.color=' #11ff00'
+                    resposta.style.color=' #a7f8a1ff'
         }
     }
 
