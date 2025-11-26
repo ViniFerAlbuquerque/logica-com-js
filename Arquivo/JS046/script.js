@@ -3,28 +3,31 @@ const inputFim = document.getElementById('fim')
 const inputPassos = document.getElementById('passos')
 const resposta = document.querySelector('div.resposta')
 
-function contar() {
+function calcular() {
     resposta.innerHTML = ''
     let inicio = Number(inputInicio.value)
     const fim = Number(inputFim.value)
     const passos = Number(inputPassos.value)
 
     if (isNaN(inicio) || isNaN(fim) || isNaN(passos) || passos <= 0) {
-        alert('[ERRO!]→Insira um valor válido!')
-        return
+        alert ('[ERRO!]→Insira valores válidos!')
     }
-    if (inicio < fim) {
-        while (inicio <= fim) {
-            resposta.innerHTML += `${inicio} > `
-            inicio += passos
+    let soma = 0
+    let exibicao = ''
+     
+    while (inicio <= fim) {
+        soma += inicio
+        //"+" por "inicio + passos" por ser menor ou igual ao "fim"
+        exibicao += inicio
+
+        if (inicio + passos <= fim) {
+
+            exibicao += ` + `
+            // exibicao =  resposta.innerHTML += `${inicio} + `
         }
-    } else {
-        while (inicio >= fim) {
-            resposta.innerHTML += `${inicio} > `
-            inicio -= passos
-        }
+        inicio += passos 
     }
-    resposta.innerHTML += 'Acabou!'
+    resposta.innerHTML += `<p>${exibicao} = ${soma}</p>`
 }
 function limpar() {
     inputInicio.value = ''
