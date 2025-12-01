@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, hsl(185, 43%, 90%), #000000);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+h1::first-line {
+    color: #73aca5 ;
+}
+h2::first-line {
+    color: #e9a8db;
+}
+
+.design-section {
+    width: 90%;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(to top, #434144, #020220);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+input[type="number"] {
+    background: #d6e67c;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+}
+
+button {
+    background: #d0ff00;
+    border-radius: 39px;
+    border: 1px solid;
+    padding: 3pxpx;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 159px;
+}
+
+#txt {
+    background-color: #fff9f1;
+    width: 145px;
+}
+
+.button:hover {
+    background-color: #16e00fd2;
+    /* Nova cor de fundo no hover */
+    color: #d4e44b;
+
+}
+
+.resposta {
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bold;
+   }
+
+footer {
+    margin-top: auto;
+    font-size: 14px;
+    padding: 11px;
+    background-image: linear-gradient(to left, hsl(19, 38%, 77%), #000000);
+    background-clip: text; 
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 20s linear infinite;
+}
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
