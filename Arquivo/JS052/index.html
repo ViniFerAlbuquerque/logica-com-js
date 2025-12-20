@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisando idades!</title>
+</head>
+
+<body>
+    <!-- Crie um algoritmo que leia a idade de 10 pessoas, mostrando no final:
+a) Qual é a média de idade do grupo
+b) Quantas pessoas tem mais de 18 anos
+c) Quantas pessoas tem menos de 5 anos
+d) Qual foi a maior idade lida -->
+
+    <section class="design-section">
+
+        <h1>Analisador de idades</h1>
+
+        <h2>Insira a idade de 10 pessoas:</h2>
+
+        <p>Idade: <input type="number" name="idade" id="idade"> anos</p>
+
+        <button class="button" id="btnAdicionar" onclick="adicionarIdades()">Adicionar</button>
+
+        <button class="button" onclick="analisarIdades()">Analisar</button>
+
+        <button class="button" onclick="limpar()" class="btnLimpar">Limpar</button>
+
+        <!-- <p>Progresso: <progress id="progresso" max="10" value="0" aria-valuenow="0"></progress> <span
+                id="faltamIdades">Faltam 10 idades.</span></p> -->
+
+        <div class="resposta" aria-live="polite"></div>
+
+        <footer>ViniFerAlbuquerque!</footer>
+    </section>
+
+      <script src="script.js"></script>
+
+</body>
+
+</html>
