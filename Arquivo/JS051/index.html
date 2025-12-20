@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,41 @@
     <link rel="stylesheet" href="style.css">
     <title>Leitor de preços!</title>
 </head>
+
 <body>
     <!-- //Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela
 qual foi o maior e qual foi o menor preço digitados. -->
 
-<section class="design-section">
+    <section class="design-section">
 
-    <h1>Leitor de preços:</h1>
+        <h1>Leitor de preços:</h1>
 
-    <h2>Insira abaixo o nome e preço de 8 produtos:</h2>
+        <h2>Insira abaixo o nome e preço de 8 produtos:</h2>
 
-    <p>Preço: <input type="number" name="preco" id="preco"></p>
+        <p>Preço: <input type="number" name="preco" id="preco"></p>
 
     <button class="button" onclick="adicionarProduto()">Adicionar!</button>
     <button class="button" onclick="analisarPrecos()">Analisar preços!</button>
     <button class="button" onclick="limpar()" class="btnLimpar">Limpar resposta!</button>
 
-    <div class="resposta"></div>
+        <!-- <div id="entrada">
+            <input id="nome" placeholder="Nome do produto" type="text" />
+            <input id="preco" placeholder="Preço" type="number" step="0.01" />
+            <button id="btnAdicionar" class="button" onclick="adicionarProduto()">Adicionar</button>
+        </div> -->
 
-    <footer>ViniFerAlbuquerque!</footer>
+        <div id="restante" style="margin-top:8px; font-weight:600;"></div>
 
-</section>
+        <ul id="lista"></ul>
+
+        <div class="resposta"></div>
+
+        <footer>ViniFerAlbuquerque!</footer>
+
+    </section>
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>

@@ -44,6 +44,15 @@ input[type="number"] {
     width: 100px;
 }
 
+input[type="text"] {
+    background: #d6e67c;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+}
+
 button {
     background: #d0ff00;
     border-radius: 39px;
