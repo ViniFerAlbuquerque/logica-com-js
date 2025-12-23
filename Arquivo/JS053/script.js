@@ -19,7 +19,7 @@ function adicionar() {
     let sexo = Number(inputSexo.value)
 
     if (isNaN(idade) || isNaN(sexo) || idade <= 0) {
-        alert('[ERRO![→Insira números válidos.')
+        alert('[ERRO!]→Insira números válidos.')
         inputIdade.value = ''
         inputIdade.focus()
         return
