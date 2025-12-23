@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Idade e sexo!</title>
+</head>
+<body>
+    <!-- Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:
+
+a) Quantos homens foram cadastrados
+b) Quantas mulheres foram cadastradas
+c) A média de idade do grupo
+d) A média de idade dos homens
+e) Quantas mulheres tem mais de 20 anos -->
+
+<section class="design-section">
+
+        <h1>Analisador de idade e sexo:</h1>
+
+        <h2>Cadastre 5 pessoas abaixo:</h2>
+
+        <p>Idade: <input type="number" name="idade" id="idade"> anos</p>
+
+        <h2>Digite o número:</h2>
+
+        <p>1 para "Sexo feminino" | 2 para "Sexo masculino"</p>
+
+
+        <p>Sexo: <input type="number" name="sexo" id="sexo"></p>
+
+        <button onclick="adicionar()">Adicionar</button>
+
+        <button onclick="analisar()">Analisar</button>
+
+        <button onclick="limpar()" class="btnLimpar">Limpar</button>
+
+        <div class="resposta"></div>
+
+        <footer>ViniFerAlbuquerque</footer>
+
+    </section>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
