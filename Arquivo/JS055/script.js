@@ -26,7 +26,7 @@ function sortearNumero() {
 function jogar() {
     const jogador = Number(inputNumero.value)
 
-    if (isNaN(jogador) || jogador <= 0 || jogador > 10) {
+    if (isNaN(jogador) || jogador <= 0 || jogador > 10) { 
         alert('Insira números válidos entre 1 e 10.')
         inputNumero.value = ''
         inputNumero.focus()
