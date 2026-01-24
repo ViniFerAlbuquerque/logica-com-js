@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Leitor e somador de números!</title>
+</head>
+
+<body>
+
+    <!-- Crie um programa que leia vários números pelo teclado e mostre no final o
+somatório entre eles.
+
+Obs: O programa será interrompido quando o número 1111 for digitado -->
+
+    <section class="design-section">
+
+        <h1>Leitor e somador de números : </h1>
+
+        <h2>Digite quantos números desejar, para finalizar digite o número: 1111</h2>
+
+        <p>Números: <input type="number" name="numeros" id="numeros"></p>
+
+        <button class="button" onclick="adicionar()" class="btnAdicionar">Adicionar</button>
+        <button class="button" onclick="recomecar()" class="btnRecomecar">Recomeçar</button>
+
+        <div class="resposta"></div>
+
+        <footer>ViniFerAlbuquerque!</footer>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
