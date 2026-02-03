@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<!-- Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.
+No final, mostre o total de salários pagos aos homens e o total pago às mulheres.
+O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um funcionário. -->
+
+<section class="design-section">
+
+    <h1>Cadasto de funcionários:</h1>
+
+    <h2>Finalize o cadastro digitando o número "0", no campo "Salário" e "Sexo". Depois clique em "Adicionar":</h2>
+    <p>Salário: <input type="number" name="salario" id="salario"></p>
+
+    <h2>Digite: "F" para "Sexo Feminino" | "M" para "Sexo Masculino"</h2>
+
+    <p>Sexo: <input type = "text" name="sexo" id="sexo"></p>
+
+    <button id="button" onclick="adicionar()" class="btnAdicionar">Adicionar</button>
+
+    <button id="button" onclick = "recomecar()" class="btnRecomecar">Recomecar</button>
+
+    <div class="resposta"></div>
+
+    <footer>ViniFerAlbuquerque!</footer>
+
+</section>
+
+    <script src="script.js"></script>
+
+</html>
