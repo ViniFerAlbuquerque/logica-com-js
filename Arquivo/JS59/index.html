@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de pessoas!</title>
+</head>
+
+<body>
+    <!-- Crie um programa que leia o sexo e a idade de várias pessoas. 
+     O programa vai perguntar se o usuário quer continuar ou não a cada pessoa. 
+     No final, mostre:
+
+a) qual é a maior idade lida
+b) quantos homens foram cadastrados
+c) qual é a idade da mulher mais jovem
+d) qual é a média de idade entre os homens -->
+
+<section class="design-section">
+    <h1>Cadastro de pessoas:</h1>
+
+    <h2>Digite o número "0" no campo "Sexo" e "Idade" para finalizar o cadastro!</h2>
+
+    <h2>Digite "F" para o "Sexo feminino" | "M" para "Sexo masculino"!</h2>
+
+    <h2>Sexo: <input type="text" name="sexo" id="sexo"></h2>
+    <h2>Idade: <input type="number" name="idade" id="idade"></h2>
+
+    <button onclick="adicionar()" class="btnAdicionar">Adicionar!</button>
+    <button onclick="cadastrar()" class="btnCadastrar">cadastrar mais pessoas →</button>
+
+    <div class="resposta"></div>
+
+    <footer>ViniFerAlbuquerque!</footer>
+</section>
+    <Script src="script.js"></Script>
+</body>
+
+</html>
