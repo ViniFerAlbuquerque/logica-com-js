@@ -4,3 +4,7 @@
 
 <img src="https://github.com/ViniFerAlbuquerque/logica-com-js/blob/main/Arquivo/Assets/ola-mundo.png?raw=true">
 <p>Exemplo do primeiro desafio-JS001!</p>
+<br>
+<hr>
+<img src="https://github.com/ViniFerAlbuquerque/logica-com-js/blob/main/Arquivo/Assets/boas-vindas.png?raw=true">
+<p>Segundo desafio-JS002 "Mensagem de boas-vindas!"</p>
