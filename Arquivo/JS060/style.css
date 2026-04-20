@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to left, #f17136, #f1a98a);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.design-section {
+    width: 80%;
+    border: 4px solid #211746;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f3d9c8;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    background: #d3d8a9;
+    border-radius: 50px;
+    border: 2px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 80px;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    background: #bfe063;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px;
+    width: 700px;
+    font-size: 25px;
+}
+
+button {
+    background: #a0aa0f;
+    border-radius: 50px;
+    border: 5px #000;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    color: #f3d9c8;
+}
+
+.btnCadastrar {
+    display: none;
+}
+
+h2 {
+    color: #573d04;
+}
+
+#sexo {
+    width: 80px;
+}
+
+label {
+     font-size: 25px;
+}
+

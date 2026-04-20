@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Nome, idade e sexo!</title>
+</head>
+
+<body>
+<!-- Crie um programa que leia o nome, a idade e o sexo de várias pessoas. 
+O programa vai perguntar se o usuário quer continuar. No final, mostre: 
+a) O nome da pessoa mais velha;
+b) O nome da mulher mais jovem;
+c) A média de idade do grupo;
+d) Quantos homens tem mais de 30 anos;
+e) Quantas mulheres tem menos de 18 anos -->
+
+     <section class="design-section">
+
+        <h1>Cadastro de pessoas</h1>
+
+        <h2>Digite o número "0" nos campos "Nome", "Sexo" e "Idade" para finalizar o cadastro.</h2>
+
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+
+
+        <h2>Digite "F" para "Sexo Feminino" | "M" para "Sexo Masculino"</h2>
+                
+        <p>
+            <label for="Sexo">Sexo:</label>
+            <input type="text" name="sexo" id="sexo">
+        </p>
+
+        <p>
+            <label for="anos">Idade:</label>
+            <input type="number" name="idade" id="idade">
+        </p>
+
+        <button onclick="adicionar()" class="btnAdicionar">Adicionar</button>
+
+        <br>
+
+        <button onclick="cadastrar()" class="btnCadastrar">Cadastrar mais pessoas</button>
+
+        <div class="resposta"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
