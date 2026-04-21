@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de números!</title>
+</head>
+<body>
+    
+     <section class="design-section">
+
+        <h1>Contador de números</h1>
+
+        <p>Número inicial: <input type="number" name="inicio" id="inicio"></p>
+
+        <p>Número final: <input type="number" name="fim" id="fim"></p>
+
+        <p>Número de passos: <input type="number" name="passos" id="passos"></p>
+
+        <button onclick="contar()" class="btnContar">Iniciar contagem</button>
+
+        <br>
+
+        <button onclick="recomecar()" class="btnRecomecar">Recomeçar</button>
+
+        <br>
+
+        <div class="resposta"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
